@@ -1,0 +1,159 @@
+:root{
+    --blanco: #FFF;
+    --negro: #000;
+    --primero:#FFD500;
+    --segundo:#B61F08 ;
+    --fuentePrincipal: 'Krub', sans-serif;
+    
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+    }
+
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+    
+    /** Globales **/
+    body {
+    background-color: var(--blanco)!important;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    
+    }
+    p {
+    font-size: 1.8rem;
+    font-family: var(--fuentePrincipal);
+    color: var(--negro); 
+       }
+    a {
+    text-decoration: none;
+    }
+   
+    .contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    }
+    h1, h2, h3 {
+    text-align: center;
+    color: var(--cuarto);
+    font-family: var(--fuentePrincipal);
+    }
+    h1 {font-size: 4rem;}
+    h2 {font-size: 3.2rem;}
+    h3 {font-size: 2.4rem;}
+    /**titulos**/   
+.titulos{
+  color: var(--segundo) !important;
+  font-weight: bold;
+}
+
+  /**Botones**/
+.btn{
+  background-color: var(--segundo) !important;
+  color: var(--primero) !important;
+  font-size: 2rem !important;
+  border: var(--primero) !important;
+}
+.btn:hover{
+  background-color: var(--primero) !important;
+  color: var(--segundo) !important;
+  font-size: 2rem !important;
+  border: var(--segundo) !important;
+}
+
+
+    /** NAVBAR **/
+
+    .nav-link:focus, .nav-link:hover {
+        color:var(--primero) !important;
+    }
+    .nav-link {
+        color: var(--segundo) !important;
+        font-size: 2rem !important;
+       
+    }
+    .navbar-toggler {
+        color: var(--primero) !important;
+        background-color: var(--segundo) !important;
+        border: var(--bs-border-width) solid var(--segundo) !important;
+    }
+    .border-bottom {
+        border-bottom: var(--bs-border-width) var(--bs-border-style) #771c46 !important;
+    }
+
+
+
+/* prensentaciones*/
+.presentaciones .presentaciones-carousel,
+.presentaciones .presentaciones-slider {
+  overflow: hidden;
+}
+
+.presentaciones .presentaciones-item {
+  box-sizing: content-box;
+  padding: 40px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  position: relative;
+  background: #fff;
+}
+
+.presentaciones .presentaciones presentaciones-img {
+  width: 90px;
+  border-radius: 50px;
+  border: 6px solid #fff;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.presentaciones .presentaciones-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+.presentaciones .presentaciones-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.presentaciones .presentaciones-item .quote-icon-left,
+.presentaciones .presentaciones-item .quote-icon-right {
+  color: white;
+  font-size: 26px;
+}
+
+.presentaciones .presentaciones-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.presentaciones .presentaciones-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.presentaciones .presentaciones-item p {
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+/** calidad**/
+.calidad__carta{
+border: var(--segundo);
+
+}
+   /**FOOTER**/
+
+   .footer{
+    background-color: var(--segundo);
+   }
+   .textop{
+    color: var(--primero);
+   }
